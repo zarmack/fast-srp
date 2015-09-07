@@ -82,3 +82,5 @@ previous versions of SRP are available on this site:
 * [SRP-1](http://srp.stanford.edu/design1.html)
 * [SRP-2](http://srp.stanford.edu/design2.html)
 * [SRP-3](http://srp.stanford.edu/design3.html)
+
+This document has been copied from [http://srp.stanford.edu/design.html](http://srp.stanford.edu/design.html)

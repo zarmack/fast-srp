@@ -1,9 +1,10 @@
-# SRP Protocol Design
+## SRP Protocol Design
+
 SRP is the newest addition to a new class of strong authentication
 protocols that resist all the well-known passive and active attacks
 over the network.
 SRP borrows some elements from other key-exchange and
-identification protcols and adds some subtle modifications and
+identification protocols and adds some subtle modifications and
 refinements.
 The result is a protocol that preserves the strength and
 efficiency of the EKE family protocols while fixing some of

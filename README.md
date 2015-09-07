@@ -13,8 +13,17 @@ node-srp uses [bignum](https://github.com/justmoon/node-bignum) to handle the bi
 
 var srp6a = require('fast-srp');
 
-//
-// I:
+/**
+ * Computes the verifier of a user. Only needed to add the user to the auth system.
+ *
+ * I: (string)		Username to compute verifier
+ * P: (string)		Password
+ * callback: (function) Callback function with two params; error, verifier
+ *
+ * returns: verifier (Buffer)
+ *
+ */
+
 var srp6a_create_user = function(I, P, callback) {
   srp6a.genKey(32, function(error, salt) {
 	  if(error) {

@@ -13,9 +13,7 @@
   "author": "Zarmack Tanen",
   "licence": "MIT",
   "readmeFilename": "README.md",
-  "dependencies": {
-    "lodash": "^3.10.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "vows": "0.7.0"
   }
